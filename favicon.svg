@@ -1,0 +1,39 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldRing" x1="10" y1="10" x2="110" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" />
+      <stop offset="50%" />
+      <stop offset="100%" />
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="20" y1="20" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" />
+      <stop offset="100%" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Golden Globe Rim -->
+  <circle cx="60" cy="60" r="56" fill="#FFFFFF" stroke="url(#goldRing)" />
+  <circle cx="60" cy="60" r="50" stroke="#0B1F3A" />
+
+  <!-- Globe Latitudes & Longitudes -->
+  <ellipse cx="60" cy="60" rx="22" ry="48" stroke="#C5A030" fill="none" />
+  <ellipse cx="60" cy="60" rx="38" ry="48" stroke="#C5A030" fill="none" />
+  <path d="M12 60H108" stroke="#C5A030" fill="none" />
+  <path d="M18 38H102" stroke="#C5A030" fill="none" />
+  <path d="M18 82H102" stroke="#C5A030" fill="none" />
+
+  <!-- Gold 'M' Monogram -->
+  <path d="M24 80V40H35L46 61L57 40H68V80H58.5V56.5L46 78L33.5 56.5V80H24Z" fill="url(#goldRing)" stroke="#FFFFFF" />
+
+  <!-- Deep Navy 'B' Monogram -->
+  <path d="M62 43H82C89.5 43 94.5 46.8 94.5 52.8C94.5 57.1 91.8 60.2 87.6 61.5C92.8 62.7 96.2 66.4 96.2 71.6C96.2 78.4 90.6 83 82.2 83H62V43ZM72 58.8H80.2C83.5 58.8 85.4 57.1 85.4 54.5C85.4 51.9 83.5 50.3 80.2 50.3H72V58.8ZM72 75.5H81.2C84.8 75.5 86.9 73.7 86.9 70.8C86.9 67.9 84.7 66.1 81.1 66.1H72V75.5Z" fill="url(#navyGrad)" stroke="#FFFFFF" />
+
+  <!-- Ascending Flight Arc -->
+  <path d="M22 76C38 84 64 74 92 42" stroke="url(#goldRing)" fill="none" />
+  <path d="M25 79C42 86 67 75 94 44" stroke="#0B1F3A" fill="none" />
+
+  <!-- Airplane Silhouette -->
+  <g transform="translate(88, 24) rotate(-38)">
+    <path d="M16 0L19 10L29 14V17L19 15.5L19 23L23 26V28.5L16 26.8L9 28.5V26L13 23L13 15.5L3 17V14L13 10L16 0Z" fill="#0B1F3A" stroke="#FFFFFF" />
+  </g>
+</svg>
